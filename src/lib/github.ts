@@ -19,32 +19,32 @@ export const FEATURED_REPOS: Partial<GitHubRepo>[] = [
     description: "Architectural blueprint and FHIR-compliant API integration module for hospital systems.",
     language: "TypeScript",
     topics: ["healthcare", "fhir", "nextjs", "react-native"],
-    html_url: "https://github.com/bsb-suresh11",
+    html_url: "https://github.com/Sureshb11",
   },
   {
     name: "dhanvi-ai-assistant",
     description: "Conversational healthcare triage and clinical appointment preparation assistant.",
     language: "Python",
     topics: ["ai", "llm", "healthcare", "fastapi", "prompt-engineering"],
-    html_url: "https://github.com/bsb-suresh11",
+    html_url: "https://github.com/Sureshb11",
   },
   {
     name: "bizally-erp-suite",
     description: "Multi-tenant cloud ERP platform with role-based access control and invoice automation.",
     language: "TypeScript",
     topics: ["nestjs", "nextjs", "postgresql", "redis", "erp"],
-    html_url: "https://github.com/bsb-suresh11",
+    html_url: "https://github.com/Sureshb11",
   },
   {
     name: "toss2play-app",
     description: "Real-time multi-sport tournament and ball-by-ball cricket scoring mobile application.",
     language: "TypeScript",
     topics: ["react-native", "websockets", "mobile", "state-machine"],
-    html_url: "https://github.com/bsb-suresh11",
+    html_url: "https://github.com/Sureshb11",
   },
 ];
 
-export async function fetchGitHubRepos(username: string = "bsb-suresh11"): Promise<GitHubRepo[]> {
+export async function fetchGitHubRepos(username: string = "Sureshb11"): Promise<GitHubRepo[]> {
   try {
     const res = await fetch(`https://api.github.com/users/${username}/repos?sort=updated&per_page=6`, {
       next: { revalidate: 3600 },
@@ -87,9 +87,9 @@ function getFallbackRepos(): GitHubRepo[] {
   return FEATURED_REPOS.map((repo, idx) => ({
     id: idx + 1,
     name: repo.name || "repository",
-    full_name: `bsb-suresh11/${repo.name}`,
+    full_name: `Sureshb11/${repo.name}`,
     description: repo.description || "Public repository showcase.",
-    html_url: repo.html_url || "https://github.com/bsb-suresh11",
+    html_url: repo.html_url || "https://github.com/Sureshb11",
     homepage: null,
     stargazers_count: 0,
     forks_count: 0,

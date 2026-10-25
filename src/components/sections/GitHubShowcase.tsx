@@ -109,7 +109,7 @@ export default async function GitHubShowcase() {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-xs bg-[#0D1524] border border-[#2A8AF6]/40 text-white hover:bg-[#111C2F] hover:border-[#31D7F5] transition-all shadow-md"
           >
-            <span>Visit @bsb-suresh11 on GitHub</span>
+            <span>Visit @Sureshb11 on GitHub</span>
             <ExternalLink className="w-4 h-4 text-[#31D7F5]" />
           </a>
         </div>

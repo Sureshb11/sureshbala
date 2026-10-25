@@ -86,7 +86,7 @@ export const projects: Project[] = [
       { from: "Dhanvi AI Gateway", to: "LLM Inference Service", label: "Strict Guardrails" },
       { from: "Node.js Core Microservices", to: "FHIR / HL7 Connector", label: "Hospital HIS Sync" },
     ],
-    githubUrl: "https://github.com/bsb-suresh11",
+    githubUrl: "https://github.com/Sureshb11",
   },
   {
     slug: "bizally-erp",
@@ -148,7 +148,7 @@ export const projects: Project[] = [
       { from: "NestJS Backend API", to: "Redis Cache", label: "Session & Fast Ledger" },
       { from: "NestJS Backend API", to: "PostgreSQL Database", label: "Row-Level Security" },
     ],
-    githubUrl: "https://github.com/bsb-suresh11",
+    githubUrl: "https://github.com/Sureshb11",
   },
   {
     slug: "otec-asset-management",
@@ -271,7 +271,7 @@ export const projects: Project[] = [
       { from: "State Machine Engine", to: "Spectator Clients", label: "Pub/Sub Broadcast (<50ms)" },
       { from: "State Machine Engine", to: "Database Store", label: "Match Archive" },
     ],
-    githubUrl: "https://github.com/bsb-suresh11",
+    githubUrl: "https://github.com/Sureshb11",
   },
   {
     slug: "nalamrd",
@@ -330,6 +330,6 @@ export const projects: Project[] = [
       { from: "Support Host", to: "Remote Client", label: "WebRTC P2P (Video + Data)" },
       { from: "Support Host", to: "TURN Relay (Fallback)", label: "TLS Port 443" },
     ],
-    githubUrl: "https://github.com/bsb-suresh11",
+    githubUrl: "https://github.com/Sureshb11",
   },
 ];

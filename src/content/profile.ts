@@ -37,7 +37,7 @@ export const profile = {
   ],
   floatingTech: ["AI / LLMs", "React", "TypeScript", "Python", "Azure", "Docker", "Next.js"],
   socials: {
-    github: "https://github.com/bsb-suresh11",
+    github: "https://github.com/Sureshb11",
     linkedin: "https://www.linkedin.com/in/sureshbala-dev",
     email: "mailto:bsb.suresh11@gmail.com",
   },

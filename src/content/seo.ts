@@ -24,7 +24,7 @@ export const siteConfig = {
   authors: [{ name: "Suresh Bala", url: "https://sureshbala.dev" }],
   creator: "Suresh Bala",
   socials: {
-    github: "https://github.com/bsb-suresh11",
+    github: "https://github.com/Sureshb11",
     linkedin: "https://www.linkedin.com/in/sureshbala-dev",
     email: "bsb.suresh11@gmail.com",
   },
@@ -55,7 +55,7 @@ export const personSchema = {
     "DevOps & CI/CD",
   ],
   sameAs: [
-    "https://github.com/bsb-suresh11",
+    "https://github.com/Sureshb11",
     "https://www.linkedin.com/in/sureshbala-dev",
   ],
   email: "mailto:bsb.suresh11@gmail.com",
